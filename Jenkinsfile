@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('s') {
       steps {
-        echo 'a'
+        sh 'sh echo checking code quality'
       }
     }
 
